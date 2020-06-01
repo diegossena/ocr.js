@@ -1,0 +1,23 @@
+{
+  "name": "test-ocr",
+  "version": "1.0.0",
+  "description": "```sh\r npm i -g nodemon\r npm i express ejs tesseract.js pdf2canvas\r npm init -y\r ```",
+  "main": "server.js",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "chart.js": "^2.9.3",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "node-gyp": "^6.1.0",
+    "pdf2canvas": "^0.1.0",
+    "tesseract.js": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
